@@ -21,6 +21,7 @@ function App() {
         </a>
       </header>
       <CookieConsent
+        debug={true}
         buttonText="Accept"
         cookieName="myAwesomeCookieName2"
         style={{
